@@ -18,3 +18,21 @@
         width: calc( (100% / 3) * 2);
     }
 }
+
+/*--------------------
+    SECTION STRATEGIC
+----------------------*/
+.strategic .col {
+    width: 100%;
+    margin: .625rem 0;
+}
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .strategic .col {
+        width: 50%;
+    }
+    .strategic .row-wrap {
+        padding-left: 8.125rem;
+        padding-right: 8.125rem;
+    }
+}
