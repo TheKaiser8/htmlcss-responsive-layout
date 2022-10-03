@@ -98,3 +98,10 @@
         width: calc( (100% / 3) * 2);
     }
 }
+
+/*-----------------------
+    SECTION GET STARTED
+-------------------------*/
+.get-started .text-center {
+    text-align: center;
+}
