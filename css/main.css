@@ -50,3 +50,26 @@
 .card-partner {
     background-color: var(--secondary-color);
 }
+
+/*-----------------------
+    SECTION BENEFITS
+-------------------------*/
+.benefits .col {
+    width: 100%;
+    margin: .625rem 0;
+}
+.card-benefits {
+    background-color: #fff;
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .benefits .col {
+        width: 50%;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .benefits .col {
+        width: calc(100% / 3);
+    }
+}
