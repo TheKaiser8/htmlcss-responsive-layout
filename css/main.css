@@ -26,6 +26,9 @@
     width: 100%;
     margin: .625rem 0;
 }
+.card-strategic {
+    background-color: #fff;
+}
 /* Desktop */
 @media screen and (min-width: 992px) {
     .strategic .col {
@@ -35,4 +38,15 @@
         padding-left: 8.125rem;
         padding-right: 8.125rem;
     }
+}
+
+/*-----------------------
+    SECTION PARTNERS
+-------------------------*/
+.partners .col {
+    width: 100%;
+    margin: .625rem 0;
+}
+.card-partner {
+    background-color: var(--secondary-color);
 }
