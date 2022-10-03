@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--third-color);
+    color: #fff;
+}
+footer .text-center {
+    text-align: center;
+}
