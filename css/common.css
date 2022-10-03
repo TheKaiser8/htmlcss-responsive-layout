@@ -1,3 +1,22 @@
 /*------------
     COMMON
 --------------*/
+.container {
+    max-width: 68.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin: auto;
+}
+.list-inline {
+    display: flex;
+    list-style: none;
+}
+/*------------
+    FLEX
+--------------*/
+.flex {
+    display: flex;
+}
+.content-between {
+    justify-content: space-between;
+}
