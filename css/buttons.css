@@ -4,6 +4,8 @@
 .btn {
     border: none;
     background-color: #fff;
+    font-family: inherit;
+    font-size: inherit;
 }
 .btn-primary {
     padding: .625rem .9375rem;
