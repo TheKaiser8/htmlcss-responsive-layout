@@ -1,13 +1,30 @@
 /*--------------------
     SECTION HIGHLIGHTS
 ----------------------*/
-.card-debug {
+.card-highlight {
     background-color: var(--first-color-light);
-    height: 300px;
+    padding: 1.875rem;
+    height: 100%;
 }
 .highlights .col {
     width: 100%;
     margin: .625rem 0;
+}
+.img-phone-highlight {
+    max-height: 16.875rem;
+    display: block;
+    margin-bottom: -1.875rem;
+}
+.h3-highlight {
+    color: var(--first-color);
+}
+.text-highlight {
+    font-weight: bold;
+    color: var(--text-color1);
+}
+.icon-highlight {
+    color: var(--first-color);
+    font-size: 5rem;
 }
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -16,6 +33,22 @@
     }
     .highlights .col:first-child {
         width: calc( (100% / 3) * 2);
+    }
+    .highlights .col-right {
+        width: 50%;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .highlights .col.row-wrap .card-highlight:first-of-type {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .highlights .col-left, .col-right {
+        width: 50%;
+    }
+    .highlights .col-right {
+        align-items: flex-end;
     }
 }
 

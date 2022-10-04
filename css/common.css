@@ -69,3 +69,6 @@ section:nth-child(even) {
 /*------------------
     MARGIN E PADDING
 --------------------*/
+.mb-30 {
+    margin-bottom: 1.875rem;
+}
