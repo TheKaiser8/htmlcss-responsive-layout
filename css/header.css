@@ -6,6 +6,14 @@ header {
 .main-nav {
     display: none;
 }
+header .list-inline li:not(:last-child) {
+    margin-right: 1.875rem;
+}
+header .list-inline li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Desktop */
 @media screen and (min-width: 992px) {
     .hamburger {

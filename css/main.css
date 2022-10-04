@@ -26,9 +26,6 @@
     width: 100%;
     margin: .625rem 0;
 }
-.card-strategic {
-    background-color: #fff;
-}
 /* Desktop */
 @media screen and (min-width: 992px) {
     .strategic .col {
@@ -41,14 +38,31 @@
 }
 
 /*-----------------------
-    SECTION PARTNERS
+    SECTION TESTIMONIALS
 -------------------------*/
-.partners .col {
+.card-testimonial {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+}
+.testimonials .col {
     width: 100%;
     margin: .625rem 0;
 }
-.card-partner {
-    background-color: var(--secondary-color);
+@media screen and (min-width: 768px) {
+    .card-testimonial {
+        text-align: left;
+    }
+    .testimonials .col-left {
+        width: 30%;
+    }
+    .testimonials .col-right {
+        width: 70%;
+    }
+    .box-image {
+        justify-content: flex-start;
+    }
 }
 
 /*-----------------------
@@ -58,8 +72,8 @@
     width: 100%;
     margin: .625rem 0;
 }
-.card-benefits {
-    background-color: #fff;
+.card-benefit {
+    padding: 1.875rem;
 }
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -84,15 +98,21 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
     .about-us .col {
-        width: 50%;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .about-us .col-left {
+        width: 65%;
+    }
+    .about-us .col-right {
+        width: 35%;
     }
 }
 /* Desktop */
 @media screen and (min-width: 992px) {
     .about-us .col {
         width: calc(100% / 3);
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
+        
     }
     .about-us .col:first-child {
         width: calc( (100% / 3) * 2);
@@ -102,6 +122,3 @@
 /*-----------------------
     SECTION GET STARTED
 -------------------------*/
-.get-started .text-center {
-    text-align: center;
-}

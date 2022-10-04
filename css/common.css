@@ -17,6 +17,26 @@ section:nth-child(even) {
     display: flex;
     list-style: none;
 }
+.card-rad20 {
+    background-color: #fff;
+    border-radius: 1.25rem;
+}
+.card-rad30 {
+    background-color: #fff;
+    border-radius: 1.875rem;
+}
+.img-circle {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+/*------------
+    TEXT
+--------------*/
+.text-center {
+    text-align: center;
+}
+
 /*------------
     FLEX
 --------------*/
@@ -26,8 +46,14 @@ section:nth-child(even) {
 .content-between {
     justify-content: space-between;
 }
+.justify-content-center {
+    justify-content: center;
+}
 .align-items-end {
     align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
 }
 .row-wrap {
     display: flex;
@@ -39,3 +65,7 @@ section:nth-child(even) {
     padding-left: .625rem;
     padding-right: .625rem;
 }
+
+/*------------------
+    MARGIN E PADDING
+--------------------*/
