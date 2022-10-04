@@ -1,0 +1,11 @@
+/*------------
+    BUTTONS
+--------------*/
+.btn {
+    border: none;
+    background-color: #fff;
+}
+.btn-primary {
+    padding: .625rem .9375rem;
+    border-radius: 1.25rem;
+}
