@@ -59,6 +59,24 @@
     width: 100%;
     margin: .625rem 0;
 }
+.strategic .col-left {
+    color: #fff;
+}
+.card-strategic {
+    padding: 1.875rem;
+}
+.img-strategic {
+    width: 100%;
+    display: block;
+}
+.icon-strategic {
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: .9375rem;
+    display: inline-block;
+    height: 3.125rem;
+    width: 3.125rem;
+}
 /* Desktop */
 @media screen and (min-width: 992px) {
     .strategic .col {
